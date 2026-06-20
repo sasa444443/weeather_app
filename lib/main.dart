@@ -24,7 +24,6 @@ class WeatherApp extends StatelessWidget {
                 context,
               ).weathermodel?.weatherState,
             );
-
             return MaterialApp(
               debugShowCheckedModeBanner: false,
               theme: ThemeData(
